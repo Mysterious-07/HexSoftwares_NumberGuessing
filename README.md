@@ -1,10 +1,12 @@
-🎯 Advanced Number Guessing Game — C++17
+<h1>🎯 ADVANCED NUMBER GUESSING GAME — C++17</h1>
 
 A fully–featured, industry-style number guessing game built using modern C++17, focusing on clean design, modular structure, and real-world software engineering principles.
 
-🚀 Features
+<hr>
 
-🧠 Smart Gameplay
+<h3>🚀 Features</h3>
+
+<strong>🧠 Smart Gameplay</strong>
 
 Random number guessing with dynamic difficulty
 
@@ -16,7 +18,7 @@ Optional attempt limits
 
 Time-based scoring
 
-⚙️ Software Engineering Quality
+<strong>⚙️ Software Engineering Quality</strong>
 
 Modern C++17 design (MT19937_64 RNG, chrono timers, robust input handling)
 
@@ -28,7 +30,7 @@ Cross-platform Windows/Linux compatibility
 
 No dependency on external libraries
 
-🏆 Leaderboard System
+<strong>🏆 Leaderboard System</strong>
 
 Stores player name, timestamp, score, attempts, and time taken
 
@@ -38,22 +40,25 @@ CSV-safe formatting
 
 Automatic parsing and display of top entries
 
-📂 Project Structure
+<hr>
+
+<h3>📂 Project Structure</h3>
 
 numberGuessing.cpp        → Main source file with complete game logic
 
 leaderboard.csv           → Auto-created on game completion (optional)
 
-🧩 How to Build & Run
-🔧 Compile (g++ recommended)
+<strong>🧩 How to Build & Run</strong>
+
+<strong>🔧 Compile (g++ recommended)</strong>
 
 g++ -std=c++17 -O2 -o numberGuessing numberGuessing.cpp
 
-▶️ Run
+<strong>▶️ Run</strong>
 
 ./numberGuessing
 
-🛠 Technologies Used
+<strong>🛠 Technologies Used</strong>
 
 C++17 (Modern STL, chrono, mt19937_64 RNG)
 
@@ -63,7 +68,7 @@ Input validation & error handling
 
 Cross-platform console I/O
 
-🖼 Demo (Console Preview)
+<strong>🖼 Demo (Console Preview)</strong>
 
 === Advanced Number Guessing Game ===
 
@@ -75,7 +80,7 @@ Choose difficulty:
   4) Custom
 Enter choice [1-4]:
 
-🧮 Scoring System
+<strong>🧮 Scoring System</strong>
 
 Score is dynamically calculated based on:
 
@@ -89,13 +94,15 @@ Accuracy and efficiency
 
 Rewards faster and more accurate guesses!
 
+<hr>
+
 📊 Leaderboard Example
 Time                 Player         Diff        Att   Sec    Score
 ----------------------------------------------------------------------
 2025-01-10 18:21:33  Harsh          Medium      7     12.3   82.14
 2025-01-10 18:23:50  Anonymous      Easy        3      5.1   91.02
 
-💡 Future Improvements
+<strong>💡 Future Improvements</strong>
 
 GUI version (SFML / Qt)
 
@@ -105,12 +112,12 @@ Difficulty auto-adjustment
 
 Unit tests (GoogleTest)
 
-🤝 Contributing
+<strong>🤝 Contributing</strong>
 
 Pull requests and suggestions are always welcome!
 
 If you'd like to improve UX, scoring, or add new features—feel free to contribute.
 
-⭐ Show Your Support
+<strong>⭐ Show Your Support</strong>
 
 If you like this project, consider giving it a ⭐ on GitHub!
